@@ -1,0 +1,86 @@
+.section-user {
+  position: relative;
+  background-image: url(/src/img/default-background.jpeg);
+  background-position: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.container__sign-in {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  grid-gap: 20px;
+  min-height: 500px;
+}
+
+.container__sign-in p {
+  color: #494748;
+  text-align: center;
+  font-size: 24px;
+}
+.form__sign-in {
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 4px;
+}
+
+.input__sign-in {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  color: #000;
+}
+
+.input-submit__sign-in {
+  position: relative;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  display: block;
+  appearance: none;
+  border-radius: 4px;
+  width: 100%;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  transition: 0.3s all;
+  background-color: #bf1650;
+}
+
+.input-submit__sign-in:hover {
+  background-color: #bf1650;
+  color: white;
+}
+
+.input-submit__sign-in:active {
+  transition: 0.3s all;
+  top: 2px;
+}
+.btn-exit {
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+  color: black;
+  background-color: var(--accent);
+  position: absolute;
+  left: 100px;
+  top: 15px;
+  color: #fff;
+}

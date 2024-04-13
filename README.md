@@ -1,3 +1,23 @@
+# Freelance Портфолио
+
+Привет всем!
+
+## Описание
+
+Этот проект является моим пет-проектом на React, в котором я использовал React Router для создания нескольких страниц, и темная тема для проекта!
+И ссылкa на мой "CV" находиться на главной странице, для просмотра проекта пройдет не много времени, просто взгляните, я буду рад любой обратной связи!
+
+## Технологии
+
+- React
+- React Router
+- React toastify
+- Технология БЭМ
+- SCSS, SASS (Частично!)
+- Темную/Светлую тему для страниц.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,65 @@
+.Userslist {
+  font-family: sans-serif;
+  text-align: center;
+}
+.title__user-list {
+  font-size: 40px;
+  margin: 40px;
+}
+
+.flex__user-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px;
+  gap: 30px;
+}
+
+.flex__user-list > div {
+  display: flex;
+  justify-content: start;
+  column-gap: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+}
+.flex__user-list button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+.title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ButtonSignIn {
+  width: 100px;
+  height: 30px;
+  background-color: var(--accent);
+  border-radius: 4px;
+  color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.ButtonSignIn:hover {
+  opacity: 0.8;
+}
+.userList__img {
+  border-radius: 50px;
+  display: inline-block;
+  max-height: 100px;
+  order: -1;
+  padding: 10px;
+}
+.userList__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.userList__desc > p {
+  font-size: 20px;
+}
