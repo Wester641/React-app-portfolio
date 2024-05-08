@@ -80,7 +80,20 @@
   color: black;
   background-color: var(--accent);
   position: absolute;
-  left: 100px;
-  top: 15px;
+  left: 150px;
+  top: 50px;
   color: #fff;
+}
+
+@media (max-width: 600px) {
+  .form__sign-in {
+    max-width: 400px;
+  }
+  .input-submit__sign-in {
+    letter-spacing: 0.3rem;
+  }
+  .btn-exit {
+    top: 100px;
+    left: 50px;
+  }
 }

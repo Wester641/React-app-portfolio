@@ -63,3 +63,17 @@
 .userList__desc > p {
   font-size: 20px;
 }
+
+@media (max-width: 600px) {
+  .title {
+    display: block;
+  }
+  .ButtonSignIn {
+    position: relative;
+    left: 170px;
+  }
+  .flex__user-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
