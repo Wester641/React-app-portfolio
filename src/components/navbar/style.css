@@ -26,6 +26,10 @@
 .logo strong {
   font-weight: 700;
 }
+.logoimg {
+  width: 70px;
+  height: 70px;
+}
 
 .nav-list {
   display: flex;

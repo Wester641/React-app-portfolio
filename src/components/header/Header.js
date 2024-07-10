@@ -5,14 +5,13 @@ const Header = () => {
   const [myName, setMyName] = useState("Zafarzhon");
 
   const removeName = () => {
-    console.log("ПРивеететете");
     setMyName((currentValue) => {
       return currentValue === "Zafarzhon" ? "zafariii" : "Zafarzhon";
     });
   };
 
   return (
-    <header className="header">
+    <header className="header bg-overlay bg-overlay-dark bg-parallax opacity">
       <div className="header__wrapper">
         <h1 className="header__title">
           <strong>
@@ -34,7 +33,7 @@ const Header = () => {
           </p>
         </div>
         <a href="#!" className="btn">
-          Download CV
+          Open CV <br /> <span className="span-text">(not working)</span>
         </a>
       </div>
     </header>

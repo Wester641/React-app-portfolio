@@ -24,6 +24,7 @@ const Home = () => {
           </ul>
         </div>
       </main>
+      
       <Footer />
     </>
   );
