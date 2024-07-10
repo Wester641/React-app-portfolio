@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../header/style.css";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [myName, setMyName] = useState("Zafarzhon");
@@ -23,13 +24,9 @@ const Header = () => {
         <div className="header__text">
           <p>with passion for learning and creating.</p>
           <p>
-            Lorem, Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Officia, ducimus? ipsum dolor sit amet consectetur adipisicing elit.
-            Veritatis, recusandae! with passion for learning and creating.
-          </p>
+              Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <NavLink to="/projects" className="strong-text">Projects</NavLink> section.</p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta,
-            cupiditate. with passion for learning and creating.
+          I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
           </p>
         </div>
         <a href="#!" className="btn">

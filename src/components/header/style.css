@@ -74,3 +74,11 @@
   position: relative;
   top: 10px;
 }
+
+.strong-text {
+  color: var(--white);
+}
+
+.strong-text:hover {
+  color: var(--accent);
+}
