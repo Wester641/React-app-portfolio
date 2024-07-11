@@ -207,6 +207,11 @@ body {
   top: 2px;
 }
 
+.link-btn {
+  height: 24px;
+  width: 24px;
+}
+
 .btn:active {
   position: relative;
   top: 1px;
@@ -247,6 +252,10 @@ body {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 30px;
+}
+
+.project_btn_container{
+  display: flex;
 }
 
 /* Content List */
