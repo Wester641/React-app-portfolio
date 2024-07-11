@@ -26,6 +26,10 @@ import project08 from "../../img/MyProject/2024-07-08_20-52-20compy.png";
 import project08big from "../../img/MyProject/2024-07-08_20-52-20.png";
 
 
+import project09 from "../../img/MyProject/2024-07-11_10-20-15.png";
+import project09big from "../../img/MyProject/2024-07-11_10-12-28.png";
+
+
 const projects = [
   
   {
@@ -91,6 +95,14 @@ const projects = [
     img: project08,
     imgBig: project08big,
     currectlink: "https://ordinarynextkg.vercel.app",
+  },
+  {
+    title: "Education web-app",
+    subtitle: "Al-bukhari islamic center",
+    skills: "NEXT-JS, Tailwind CSS, ShadCN",
+    img: project09,
+    imgBig: project09big,
+    currectlink: "https://albukharilanding.inclusivetec.com/education",
   },
 ];
 
