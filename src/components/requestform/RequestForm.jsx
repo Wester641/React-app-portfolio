@@ -49,6 +49,7 @@ function RequestForm({ setShowConfetti }) {
             placeholder='Name'
             onChange={e => setName(e.target.value)}
             value={name}
+            required
           />
         </label>
         <label className='request-form__email' htmlFor='email'>
@@ -59,6 +60,7 @@ function RequestForm({ setShowConfetti }) {
             placeholder='Email'
             onChange={e => setEmail(e.target.value)}
             value={email}
+            required
           />
           <span className='request-form__example'>
             For example: zafarzhon77@gmail.com
