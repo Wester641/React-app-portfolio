@@ -23,7 +23,7 @@ function RequestForm({ setShowConfetti }) {
       );
       setResMessage(response.data);
       setShowConfetti(true);
-      setTimeout(() => setShowConfetti(false), 10000);
+      setTimeout(() => setShowConfetti(false), 5000);
 
       setName('');
       setEmail('');
@@ -48,7 +48,6 @@ function RequestForm({ setShowConfetti }) {
             placeholder='Name'
             onChange={e => setName(e.target.value)}
             value={name}
-            required
           />
         </label>
         <label className='request-form__email' htmlFor='email'>
@@ -59,7 +58,6 @@ function RequestForm({ setShowConfetti }) {
             placeholder='Email'
             onChange={e => setEmail(e.target.value)}
             value={email}
-            required
           />
           <span className='request-form__example'>
             For example: zafarzhon77@gmail.com
@@ -83,7 +81,6 @@ function RequestForm({ setShowConfetti }) {
             placeholder='Message'
             onChange={e => setMessage(e.target.value)}
             value={message}
-            required
           />
         </label>
         <button type='submit' className='btn-submit'>

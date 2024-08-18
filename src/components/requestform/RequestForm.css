@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   min-height: 200px;
-  width: 100%;
+  max-width: 100%;
   padding: 50px 20px;
   background-color: var(--dark-bg);
   color: var(--white);
@@ -60,6 +60,7 @@
   font-weight: 700;
   cursor: pointer;
   transition: 0.3s all;
+  touch-action: auto;
 }
 .btn-submit:hover {
   opacity: 0.8;
