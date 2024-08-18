@@ -1,0 +1,75 @@
+.request-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  width: 100%;
+  padding: 50px 20px;
+  background-color: var(--dark-bg);
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+}
+.request-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  border-radius: 15px;
+}
+.form-input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid var(--dark-border);
+  resize: none;
+}
+.request-title {
+  text-align: center;
+  width: 60%;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--white);
+}
+.request-form__email {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.request-form__example {
+  text-align: end;
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 400;
+  color: #808080;
+  line-height: 10px;
+  letter-spacing: 1.5px;
+}
+.btn-submit {
+  align-self: flex-end;
+  background-color: var(--accent);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.btn-submit:hover {
+  opacity: 0.8;
+}
+.request-form__resMessage {
+  display: none;
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 400;
+  color: #808080;
+  line-height: 10px;
+  letter-spacing: 1.5px;
+}
