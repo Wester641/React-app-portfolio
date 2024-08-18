@@ -25,6 +25,7 @@ function RequestForm({ setShowConfetti }) {
       setShowConfetti(true);
       setTimeout(() => setShowConfetti(false), 5000);
 
+      alert(response.data);
       setName('');
       setEmail('');
       setPhone('');
