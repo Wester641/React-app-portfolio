@@ -1,5 +1,5 @@
 @import "./reset.css";
-@import url("https://fonts.googleapis.com/css?family=DM+Sans:200,300,regular,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 :root {
   --black-pure: #000;
@@ -17,18 +17,13 @@
   --header-text: var(--white);
   --accent: var(--purple);
 
-  /* Light mode */
+  /* Font family */
+  --font-main: 'Space Grotesk', sans-serif;
+}
 
-  --page-bg: var(--white);
-  --text-color: var(--black);
-  --title-1: var(--accent);
-
-  --github--border-color: var(--black-pure);
-
-  --project-card-bg: var(--white);
-  --project-card-text: var(--black-pure);
-
-  --box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.25);
+/* Apply font family to all elements */
+* {
+  font-family: var(--font-main);
 }
 
 .dark {
@@ -49,9 +44,6 @@
 html,
 body {
   min-height: 100vh;
-
-  font-family: "DM Sans", sans-serif;
-  letter-spacing: -0.5px;
 
   /* Light mode */
   background-color: var(--page-bg);
